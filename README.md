@@ -48,27 +48,17 @@ $$B(t) = B(t-1) + x^P_b(t) - x^B_m(t) - x^B_s(t)$$
 ### Constraints
 
 $$x^P_m(t) \geq 0, \forall t \in [T]$$
-&nbsp; 
 $$x^P_b(t) \geq 0, \forall t \in [T]$$
-&nbsp; 
 $$x^B_m(t) \geq 0, \forall t \in [T]$$
-&nbsp; 
 $$x^B_s(t) \geq 0, \forall t \in [T]$$
-&nbsp; 
 $$x^P_m(t) + x^P_b(t)\leq P(t)$$
-&nbsp; 
 $$B(t) \leq B_c$$
-&nbsp; 
 $$x^P_b(t) \leq B^+$$
-&nbsp; 
 $$x^B_m(t) + x^B_s(t) \leq \min\{B^-, B(t-1)\}$$
-&nbsp; 
 $$\min\{x^P_b(t), x^B_m(t) + x^B_s(t)\} = 0$$
 
 
 ### Objective Function
 $$ f_b(\boldsymbol{x}^P_b, \boldsymbol{x}^B_s) = (\boldsymbol{x}^B_s * p_s) - (\boldsymbol{x}^P_b * p_e) $$
-&nbsp; 
 $$ f_m(\boldsymbol{x}^P_m, \boldsymbol{x}^B_m) = ((\boldsymbol{x}^P_m + \boldsymbol{x}^B_m) * p_{BTC}(t) * c_{BTC}(t)) - (x^P_m(t) * p_e(t)) $$
-&nbsp; 
 $$ max(f_b(\boldsymbol{x}^P_b, \boldsymbol{x}^B_s) + f_m(\boldsymbol{x}^P_m, \boldsymbol{x}^B_m)) $$
