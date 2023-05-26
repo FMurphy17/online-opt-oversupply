@@ -61,9 +61,9 @@ $$B(t) \leq B_c$$
 
 $$x^P_b(t) \leq B^+$$
 
-$$x^B_m(t) + x^B_s(t) \leq \min\{B^-, B(t-1)\}$$
+$$x^B_m(t) + x^B_s(t) \leq min(B^-, B(t-1))$$
 
-$$\min\{x^P_b(t), x^B_m(t) + x^B_s(t)\} = 0$$
+$$min(x^P_b(t), x^B_m(t) + x^B_s(t)) = 0$$
 
 
 ### Objective Function
