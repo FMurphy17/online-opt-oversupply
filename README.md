@@ -1,5 +1,5 @@
 # online-opt-oversupply
-SBU Honors Thesis Project using RHC algorithm to create an online optimization framework for resolving oversupply on the power grid via redistribution of energy to cryptocurrency and/or battery storage. 
+SBU Honors Thesis Project using RHC algorithm to create an online optimization framework for resolving oversupply on the power grid via redistribution of energy to BTC mining and/or battery storage. 
 
 ## Mathematical Formulation
 Here is the mathematical formulation for the optimization problem, if interested: 
